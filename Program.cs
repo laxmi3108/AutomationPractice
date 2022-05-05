@@ -19,43 +19,66 @@ namespace AutomationPractice
         {
             IWebDriver Driver = null;
 
-            Women women = new Women();
+            ////Test Case
+            Sign_in sign_In = new Sign_in();
 
-            women.GoToAutomation(Driver);
+            sign_In.CreateAc(Driver);
 
-            women.GoToWomen(Driver);
+            VerifyError verifyError = new VerifyError();
 
-            women.WomenCatalog(Driver);
+            verifyError.InvalidEmail(Driver);
 
-            women.HoverToItem(Driver);
+            verifyError.MandatoryFields(Driver);
 
-            women.More(Driver);
+            verifyError.InvalidValue(Driver);
 
-            women.QuickView(Driver);
+            Search search = new Search();
 
-            women.color(Driver);
+            search.SearchProduct(Driver);
 
-            women.AddToCart(Driver);
+            Buy buy = new Buy();
 
-            women.feature(Driver);
+            buy.BuyProduct(Driver);
 
-            women.Range(Driver);
+            AddToWishList addToWishList = new AddToWishList();
 
-            women.Information(Driver);
+            addToWishList.AddtoWishlist(Driver);
 
-            women.ShortBy(Driver);
+            PriceChanging priceChanging = new PriceChanging();
 
-            women.List(Driver);
+            priceChanging.PriceReflecting(Driver);
 
-            women.AddToWishList(Driver);
+            ////Test Case End
 
-            women.AddToCompare(Driver);
+            //Women women = new Women();
 
-            women.Cart(Driver);
+            //women.GoToAutomation(Driver);
+            //women.GoToWomen(Driver);
+            //women.WomenCatalog(Driver);
+            //women.HoverToItem(Driver);
+            //women.More(Driver);
+            //women.QuickView(Driver);
+            //women.color(Driver);
+            //women.HoverAndAddToCart(Driver);
+            //women.feature(Driver);
+            //women.Range(Driver);
+            //women.Information(Driver);
+            //women.ShortBy(Driver);
+            //women.List(Driver);
+            //women.AddToWishList(Driver);
+            //women.AddToCompare(Driver);
+            //women.Cart(Driver);
+            //women.EmptyCart(Driver);
+            //women.Search(Driver);
+            //women.SubCategories(Driver);
 
-            women.Search(Driver);
+            //MyAccount myAccount = new MyAccount();
 
-            women.SubCategories(Driver);
+            //myAccount.GoToMyAcc(Driver);
+            //myAccount.OrderHistory(Driver);
+            //myAccount.Sign_out(Driver);
+
+
         }
     }
 }
