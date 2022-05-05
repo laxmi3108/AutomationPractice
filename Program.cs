@@ -50,33 +50,33 @@ namespace AutomationPractice
 
             ////Test Case End
 
-            //Women women = new Women();
+            Women women = new Women();
 
-            //women.GoToAutomation(Driver);
-            //women.GoToWomen(Driver);
-            //women.WomenCatalog(Driver);
-            //women.HoverToItem(Driver);
-            //women.More(Driver);
-            //women.QuickView(Driver);
-            //women.color(Driver);
-            //women.HoverAndAddToCart(Driver);
-            //women.feature(Driver);
-            //women.Range(Driver);
-            //women.Information(Driver);
-            //women.ShortBy(Driver);
-            //women.List(Driver);
-            //women.AddToWishList(Driver);
-            //women.AddToCompare(Driver);
-            //women.Cart(Driver);
-            //women.EmptyCart(Driver);
-            //women.Search(Driver);
-            //women.SubCategories(Driver);
+            women.GoToAutomation(Driver);
+            women.GoToWomen(Driver);
+            women.WomenCatalog(Driver);
+            women.HoverToItem(Driver);
+            women.More(Driver);
+            women.QuickView(Driver);
+            women.color(Driver);
+            women.HoverAndAddToCart(Driver);
+            women.feature(Driver);
+            women.Range(Driver);
+            women.Information(Driver);
+            women.ShortBy(Driver);
+            women.List(Driver);
+            women.AddToWishList(Driver);
+            women.AddToCompare(Driver);
+            women.Cart(Driver);
+            women.EmptyCart(Driver);
+            women.Search(Driver);
+            women.SubCategories(Driver);
 
-            //MyAccount myAccount = new MyAccount();
+            MyAccount myAccount = new MyAccount();
 
-            //myAccount.GoToMyAcc(Driver);
-            //myAccount.OrderHistory(Driver);
-            //myAccount.Sign_out(Driver);
+            myAccount.GoToMyAcc(Driver);
+            myAccount.OrderHistory(Driver);
+            myAccount.Sign_out(Driver);
 
 
         }
